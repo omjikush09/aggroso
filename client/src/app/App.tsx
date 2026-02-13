@@ -217,24 +217,6 @@ function App() {
 										</ul>
 									</div>
 
-									<div className="mt-8 pt-6 border-t border-gray-800">
-										<h3 className="text-lg font-medium mb-3 text-yellow-500/80">
-											Risks & Unknowns
-										</h3>
-										<div className="p-4 bg-yellow-900/10 border border-yellow-900/30 rounded text-yellow-200/70 text-sm">
-											<ul className="list-disc pl-5 space-y-1">
-												<li>Check API rate limits based on user volume.</li>
-												<li>
-													Ensure compliance with chosen tech stack versions
-													(Tailwind v4 is new).
-												</li>
-												<li>
-													Verify drag and drop accessibility on mobile
-													devices.
-												</li>
-											</ul>
-										</div>
-									</div>
 								</div>
 							) : (
 								<div className="h-64 flex items-center justify-center bg-gray-900/30 rounded-xl border border-dashed border-gray-800 text-gray-500">
