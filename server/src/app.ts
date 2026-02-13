@@ -6,6 +6,8 @@ import { specRouter } from "./routes/spec.routes";
 
 export const app: Express = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "*",
+}));
 app.use(bodyParser.json());
 app.use("/api", specRouter);
