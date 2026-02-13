@@ -13,6 +13,7 @@
 | **Name**   | Omji Kushwaha                                       |
 | **Email**  | [omjikush09@gmail.com](mailto:omjikush09@gmail.com) |
 | **GitHub** | [@omjikush09](https://github.com/omjikush09)        |
+|**Resume** | [Resume](https://dub.sh/omjiresume)
 
 ---
 
@@ -27,5 +28,7 @@ This project was built as a full-stack specification generator to streamline the
 - **AI-Assisted Development** — Leveraging AI tools for accelerated development
 
 ---
+
+
 
 > Built with ❤️ by Omji Kushwaha
