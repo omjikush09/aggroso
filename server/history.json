@@ -1,0 +1,85 @@
+[
+  {
+    "id": "1770923338167",
+    "createdAt": "2026-02-12T19:08:58.167Z",
+    "input": {
+      "goal": "ggh",
+      "users": "",
+      "constraints": "",
+      "template": "web"
+    },
+    "output": {
+      "stories": [
+        {
+          "id": "us-1",
+          "content": "As a user, I want to achieve ggh so that I can be productive."
+        },
+        {
+          "id": "us-2",
+          "content": "As an admin, I want to manage ggh configurations."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "task-1",
+          "content": "Setup project repository for web app",
+          "group": "setup"
+        },
+        {
+          "id": "task-2",
+          "content": "Implement authentication for ",
+          "group": "backend"
+        },
+        {
+          "id": "task-3",
+          "content": "Create UI for ggh",
+          "group": "frontend"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1770922116069",
+    "createdAt": "2026-02-12T18:48:36.069Z",
+    "input": {
+      "goal": "kl;",
+      "users": "l;k",
+      "constraints": "l;kop",
+      "template": "web"
+    },
+    "output": {
+      "stories": [
+        {
+          "id": "us-1",
+          "content": "As a l;k, I want to achieve kl; so that I can be productive."
+        },
+        {
+          "id": "us-2",
+          "content": "As an admin, I want to manage kl; configurations."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "task-1",
+          "content": "Setup project repository for web app",
+          "group": "setup"
+        },
+        {
+          "id": "task-2",
+          "content": "Implement authentication for l;k",
+          "group": "backend"
+        },
+        {
+          "id": "task-3",
+          "content": "Create UI for kl;",
+          "group": "frontend"
+        },
+        {
+          "id": "task-4",
+          "content": "Ensure compliance with: l;kop",
+          "group": "compliance"
+        }
+      ]
+    }
+  }
+]

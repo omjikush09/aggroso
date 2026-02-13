@@ -1,0 +1,52 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ProjectSpec {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  
+  // Input fields
+  goal        String
+  users       String
+  constraints String?
+  template    String
+
+  stories Story[]
+  tasks   Task[]
+}
+
+model Story {
+  id        String
+  content   String
+  position  Int
+  specId    String
+  spec      ProjectSpec @relation(fields: [specId], references: [id], onDelete: Cascade)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  @@id([specId, id])
+  @@index([specId, position])
+  @@map("stories")
+}
+
+model Task {
+  id        String
+  content   String
+  group     String
+  completed Boolean     @default(false)
+  position  Int
+  specId    String
+  spec      ProjectSpec @relation(fields: [specId], references: [id], onDelete: Cascade)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  @@id([specId, id])
+  @@index([specId, position])
+  @@map("tasks")
+}
